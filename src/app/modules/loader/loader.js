@@ -184,7 +184,7 @@ class Loader extends Component {
 
     return (
       <Div className={styles.loader_top_container}>
-        {pageState == loaderPageStates.SHOW_PAGE && children}
+        {pageState === loaderPageStates.SHOW_PAGE && children}
         {
           showBackground && (
             <Div row align className={styles.background_loader_container}>

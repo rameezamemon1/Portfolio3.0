@@ -19,7 +19,7 @@ class TimelineMobile extends Component {
     super(props);
     this.containerRef = React.createRef();
     this.state = {
-      selectedTimelineId: "nykaa",
+      selectedTimelineId: "mit",
       currentSlide: 0,
       projectsList: []
     }
@@ -95,7 +95,7 @@ class TimelineMobile extends Component {
           this.setState({ currentSlide: this.swiper.realIndex })
       }
     };
-
+    console.log(timeline)
     return (
       <Div passRef={this.containerRef} fillParent className={styles.timeline_container}>
         {/* Background div image */}

@@ -54,7 +54,8 @@ class Timeline extends Component {
     const timeline = find(timelineListValue, timelineItem => {
       return timelineItem.id == selectedTimelineId;
     });
-
+    console.log(timeline)
+    
     return (
       <Div row fillParent align="stretch" className={styles.timeline_container}>
         <Transition
