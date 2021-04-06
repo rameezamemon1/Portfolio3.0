@@ -2,7 +2,7 @@
   "name": "portfoliowebsite",
   "version": "0.1.0",
   "engines": {
-   "node": "6.11.1"},
+   "node": "9.0.0"},
   "private": true,
   "dependencies": {
     "@babel/core": "7.4.3",
