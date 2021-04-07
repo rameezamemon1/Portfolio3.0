@@ -4,6 +4,8 @@
    "node": "9.0.0",
   "private": true,
     "homepage": "www.islandpenguin.net",
+  "homepage": "http://IslandPenguin.github.io/Portfolio3.0"
+
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
