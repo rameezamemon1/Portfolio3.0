@@ -3,6 +3,7 @@
   "version": "0.1.0",
    "node": "9.0.0",
   "private": true,
+    "homepage": "www.islandpenguin.net",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
