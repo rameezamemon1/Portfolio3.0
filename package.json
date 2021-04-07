@@ -3,9 +3,7 @@
   "version": "0.1.0",
    "node": "9.0.0",
   "private": true,
-    "homepage": "www.islandpenguin.net",
   "homepage": "http://IslandPenguin.github.io/Portfolio3.0"
-
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
@@ -81,7 +79,9 @@
     "heroku-postbuild": "node scripts/build.js",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -150,6 +150,7 @@
   },
   "devDependencies": {
     "compression-webpack-plugin": "^4.0.0",
-    "react-snap": "^1.23.0"
+    "react-snap": "^1.23.0",
+      "gh-pages": "^1.0.0"
   }
 }
