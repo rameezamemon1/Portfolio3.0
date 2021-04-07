@@ -1,7 +1,7 @@
 {
   "name": "portfoliowebsite",
   "version": "0.1.0",
-   "node": "9.0.0",
+  "node": "9.0.0",
   "private": true,
   "homepage": "http://IslandPenguin.github.io/Portfolio3.0",
   "dependencies": {
@@ -150,7 +150,7 @@
   },
   "devDependencies": {
     "compression-webpack-plugin": "^4.0.0",
-    "react-snap": "^1.23.0",
-      "gh-pages": "^1.0.0"
+    "gh-pages": "^1.2.0",
+    "react-snap": "^1.23.0"
   }
 }
